@@ -1,0 +1,161 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .nav-item ul li a {
+    padding: 0px 28px;
+} 
+
+
+}
+
+@media (max-width: 991px){
+	.user-trnd {
+    display: none;
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .nav-item ul li a {
+    padding: 0px 9px;
+}
+h2 {
+    font-size: 22px;
+}
+h1 {
+    font-size: 25px;
+    line-height: 1.5;
+}
+p {
+    font-size: 17px;
+    }
+    .discount-right h4 {
+    font-size: 16px;
+}
+.box-model h5 {
+    font-size: 18px;
+    }
+    h3.discount {
+    font-size: 25px;
+}
+h3.discount:before {
+    left: -17px;
+    }
+    h3.discount:after {
+    right: -17px;
+}
+.discount-right h5 {
+    font-size: 15px;
+    }
+    a.order-btn {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 10px 15px;
+}
+.discount-right p {
+    font-size: 12px;
+}
+.footer-offer h2 {
+    font-size: 20px;
+}
+.footer-offer img {
+    max-width: 250px;
+}
+p.news-p {
+    width: 100%;
+    }
+    .right-side {
+    padding-left: 0;
+}
+}
+
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+   nav {
+    display: none;
+}
+.header-right {
+    display: none;
+}
+.logo img {
+    width: 100%;
+    max-width: 170px;
+}
+h2 {
+    font-size: 21px;
+}
+h1 {
+    font-size: 25px;
+    line-height: 1.5;
+}
+p {
+    font-size: 16px;
+}
+.box-model h5 {
+    font-size: 18px;
+    }
+    .exprience-number {
+    width: 40px;
+    height: 40px;
+}
+.exprience-number h2 {
+    font-size: 30px;
+    }
+    .exprience-single-card:after {
+    left: 35px;
+}
+.discount-left-img {
+    display: none;
+}
+.discount-right {
+    width: 100%;
+    }
+    .dm-d-img {
+    max-width: 172px !important;
+    margin: 0 auto !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px !important;
+}
+.right-side img {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+}
+.footer-offer {
+    display: block;
+    text-align: center;
+}
+.footer-offer h2 {
+    font-size: 20px;
+    margin-right: 0;
+    margin-bottom: 6px;
+}
+.footer-offer img {
+    margin: 0;
+    width: 100%;
+    max-width: 300px;
+}
+.bread-cumb p a {
+    font-size: 12px;
+}
+.bread-cumb p span {
+    font-size: 12px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+}
